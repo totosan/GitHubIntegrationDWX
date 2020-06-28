@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "/home/vsonline/.dotnet/store/|arch|/|tfm|",
-      "/var/nuget"
-    ]
-  }
-}
