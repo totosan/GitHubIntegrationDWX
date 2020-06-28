@@ -1,3 +1,1 @@
-# GitHubIntegrationDWX
-
-This repo ist for Demonstration
+# Azure Blob Storage CRUD Actions - ASP.NET Core Project
