@@ -15,7 +15,7 @@ namespace MyAPI
 {
     public class Startup
     {
-        var Secret = "LHpuBc3uzc7IUtRduR-pkt-M~m0EXb8-iF";
+        public string Secret;
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -27,6 +27,7 @@ namespace MyAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            Secret = "LHpuBc3uzc7IUtRduR-pkt-M~m0EXb8-iF";
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,8 +36,7 @@ namespace MyAPI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                if(Secret)
-                    Console.WriteLine("this is my secret: " + Secret);
+                Console.WriteLine("this is my secret: " + Secret);
             }
 
             app.UseHttpsRedirection();
