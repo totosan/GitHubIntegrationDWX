@@ -1,0 +1,16 @@
+/home/vsonline/workspace/GitHubIntegrationDWX/BlobStorageASP.NETCore/bin/Debug/netcoreapp2.2/appsettings.Development.json
+/home/vsonline/workspace/GitHubIntegrationDWX/BlobStorageASP.NETCore/bin/Debug/netcoreapp2.2/appsettings.json
+/home/vsonline/workspace/GitHubIntegrationDWX/BlobStorageASP.NETCore/bin/Debug/netcoreapp2.2/Properties/launchSettings.json
+/home/vsonline/workspace/GitHubIntegrationDWX/BlobStorageASP.NETCore/bin/Debug/netcoreapp2.2/BlobStorageASP.NETCore.deps.json
+/home/vsonline/workspace/GitHubIntegrationDWX/BlobStorageASP.NETCore/bin/Debug/netcoreapp2.2/BlobStorageASP.NETCore.runtimeconfig.json
+/home/vsonline/workspace/GitHubIntegrationDWX/BlobStorageASP.NETCore/bin/Debug/netcoreapp2.2/BlobStorageASP.NETCore.runtimeconfig.dev.json
+/home/vsonline/workspace/GitHubIntegrationDWX/BlobStorageASP.NETCore/bin/Debug/netcoreapp2.2/BlobStorageASP.NETCore.dll
+/home/vsonline/workspace/GitHubIntegrationDWX/BlobStorageASP.NETCore/bin/Debug/netcoreapp2.2/BlobStorageASP.NETCore.pdb
+/home/vsonline/workspace/GitHubIntegrationDWX/BlobStorageASP.NETCore/obj/Debug/netcoreapp2.2/BlobStorageASP.NETCore.csprojAssemblyReference.cache
+/home/vsonline/workspace/GitHubIntegrationDWX/BlobStorageASP.NETCore/obj/Debug/netcoreapp2.2/BlobStorageASP.NETCore.RazorAssemblyInfo.cache
+/home/vsonline/workspace/GitHubIntegrationDWX/BlobStorageASP.NETCore/obj/Debug/netcoreapp2.2/BlobStorageASP.NETCore.RazorAssemblyInfo.cs
+/home/vsonline/workspace/GitHubIntegrationDWX/BlobStorageASP.NETCore/obj/Debug/netcoreapp2.2/BlobStorageASP.NETCore.AssemblyInfoInputs.cache
+/home/vsonline/workspace/GitHubIntegrationDWX/BlobStorageASP.NETCore/obj/Debug/netcoreapp2.2/BlobStorageASP.NETCore.AssemblyInfo.cs
+/home/vsonline/workspace/GitHubIntegrationDWX/BlobStorageASP.NETCore/obj/Debug/netcoreapp2.2/BlobStorageASP.NETCore.RazorTargetAssemblyInfo.cache
+/home/vsonline/workspace/GitHubIntegrationDWX/BlobStorageASP.NETCore/obj/Debug/netcoreapp2.2/BlobStorageASP.NETCore.dll
+/home/vsonline/workspace/GitHubIntegrationDWX/BlobStorageASP.NETCore/obj/Debug/netcoreapp2.2/BlobStorageASP.NETCore.pdb
