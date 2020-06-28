@@ -35,7 +35,7 @@ namespace MyAPI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                Console.WriteLine(Secret);
+                Console.WriteLine("this is my secret: " + Secret);
             }
 
             app.UseHttpsRedirection();
