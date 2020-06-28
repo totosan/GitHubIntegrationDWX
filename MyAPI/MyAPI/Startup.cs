@@ -15,6 +15,7 @@ namespace MyAPI
 {
     public class Startup
     {
+        string Secret = "LHpuBc3uzc7IUtRduR-pkt-M~m0EXb8-iF";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -34,6 +35,7 @@ namespace MyAPI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                Console.WriteLine(Secret);
             }
 
             app.UseHttpsRedirection();
