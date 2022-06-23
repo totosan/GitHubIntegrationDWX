@@ -28,7 +28,7 @@ jobs:
       - run: echo "Push things to target...."
   Ring3:
     runs-on: ubuntu-latest
-    needs: Ring3
+    needs: Ring2
     environment: Ring1
     steps:
       - run: echo "Push things to target...."
