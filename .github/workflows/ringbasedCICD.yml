@@ -1,4 +1,4 @@
-name: Ringbased
+name: 3 Ringbased
 on:
   workflow_dispatch:
 

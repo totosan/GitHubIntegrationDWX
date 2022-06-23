@@ -1,4 +1,4 @@
-name: WayMoreEvolvedWF
+name: 2 WayMoreEvolvedWF
 on:
   workflow_dispatch:
 

@@ -1,4 +1,4 @@
-name: SimpleWf
+name: 1 SimpleWf
 
 on:
   workflow_dispatch:
