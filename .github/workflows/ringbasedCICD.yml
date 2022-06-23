@@ -19,7 +19,7 @@ jobs:
       - run: echo "Push things to target...."
   Canaries-20:
     runs-on: ubuntu-latest
-    needs: Test_Stage
+    needs: Stage
     environment: 
       name: Ring1
       url: http://user-20.com
