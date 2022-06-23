@@ -14,7 +14,7 @@ jobs:
     needs: build
     environment: 
       name: Ring0
-      url: http://www.internal-user.com
+      url: http://internal-user.com
     steps:
       - run: echo "Push things to target...."
   Canaries:
@@ -22,7 +22,7 @@ jobs:
     needs: Test_Stage
     environment: 
       name: Ring1
-      url: http://www.20-percent-user.com
+      url: http://20-percent-user.com
     steps:
       - run: echo "Push things to target...."
   EarlyAdopter:
@@ -30,7 +30,7 @@ jobs:
     needs: Canaries
     environment: 
       name: Ring2
-      url: http://www.50-percent-user.com
+      url: http://50-percent-user.com
     steps:
       - run: echo "Push things to target...."
   Users:
@@ -38,6 +38,6 @@ jobs:
     needs: EarlyAdopter
     environment: 
       name: Ring3
-      url: http://www.100-percent-user.com
+      url: http://100-%-user.com
     steps:
       - run: echo "Push things to target...."
