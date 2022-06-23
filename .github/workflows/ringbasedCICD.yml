@@ -12,23 +12,24 @@ jobs:
   Test_Stage:
     runs-on: ubuntu-latest
     needs: build
+    environment: Ring0
     steps:
       - run: echo "Push things to target...."
   Canaries:
     runs-on: ubuntu-latest
-    needs: Ring0
+    needs: Test_Stage
     environment: Ring1
     steps:
       - run: echo "Push things to target...."
   EarlyAdopter:
     runs-on: ubuntu-latest
-    needs: Ring1
-    environment: Ring1
+    needs: Canaries
+    environment: Ring2
     steps:
       - run: echo "Push things to target...."
   Users:
     runs-on: ubuntu-latest
-    needs: Ring2
-    environment: Ring1
+    needs: EarlyAdopter
+    environment: Ring3
     steps:
       - run: echo "Push things to target...."
