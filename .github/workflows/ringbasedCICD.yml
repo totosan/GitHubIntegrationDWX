@@ -12,7 +12,9 @@ jobs:
   Test_Stage:
     runs-on: ubuntu-latest
     needs: build
-    environment: Ring0
+    environment: 
+      - name: Ring0
+      - url: first 5% internal user
     steps:
       - run: echo "Push things to target...."
   Canaries:
