@@ -1,4 +1,4 @@
-name: WayMoreEvolvedWF
+name: Ringbased
 on:
   workflow_dispatch:
 
@@ -9,19 +9,26 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a one-line script
         run: echo Hello, world!
-  Test:
+  Ring0:
     runs-on: ubuntu-latest
     needs: build
     steps:
       - run: echo "Push things to target...."
-  Stage:
+  Ring1:
     runs-on: ubuntu-latest
-    needs: Test
+    needs: Ring0
+    environment: Ring1
     steps:
       - run: echo "Push things to target...."
-  Prod:
+  Ring2:
     runs-on: ubuntu-latest
-    needs: Stage
-    environment: Prod-Simple
+    needs: Ring1
+    environment: Ring1
+    steps:
+      - run: echo "Push things to target...."
+  Ring3:
+    runs-on: ubuntu-latest
+    needs: Ring3
+    environment: Ring1
     steps:
       - run: echo "Push things to target...."
