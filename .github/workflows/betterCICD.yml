@@ -25,5 +25,5 @@ jobs:
     environment: ProdEnv-Simple
     steps:
       - run: |
-        echo "Got approval from ${{ toJson(jobs) }}" 
+          echo "Got approval from ${{ toJson(job) }}" 
       - run: echo "Push things to target...."
