@@ -14,24 +14,30 @@ jobs:
     needs: build
     environment: 
       name: Ring0
-      url: first 5% internal user
+      url: www.internal-user.com
     steps:
       - run: echo "Push things to target...."
   Canaries:
     runs-on: ubuntu-latest
     needs: Test_Stage
-    environment: Ring1
+    environment: 
+      name: Ring1
+      url: www.20-percent-user.com
     steps:
       - run: echo "Push things to target...."
   EarlyAdopter:
     runs-on: ubuntu-latest
     needs: Canaries
-    environment: Ring2
+    environment: 
+      name: Ring2
+      url: www.50-percent-user.com
     steps:
       - run: echo "Push things to target...."
   Users:
     runs-on: ubuntu-latest
     needs: EarlyAdopter
-    environment: Ring3
+    environment: 
+      name: Ring3
+      url: www.100-percent-user.com
     steps:
       - run: echo "Push things to target...."
