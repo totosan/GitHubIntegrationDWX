@@ -1,0 +1,28 @@
+name: 2.1 WayMoreEvolvedParallelWF
+on:
+  workflow_dispatch:
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a one-line script
+        run: echo Hello, world!
+  Test:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - run: echo "Push things to target...."
+  Stage:
+    runs-on: ubuntu-latest
+    needs: Build
+    environment: stage-simple
+    steps:
+      - run: echo "Push things to target...."
+  Prod:
+    runs-on: ubuntu-latest
+    needs: Stage
+    environment: Prod-Simple
+    steps:
+      - run: echo "Push things to target...."
