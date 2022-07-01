@@ -1,7 +1,9 @@
 name: 3 Ringbased
 on:
   workflow_dispatch:
-
+  repository_dispatch:
+    types: [on-deployer]
+    
 jobs:
   Build:
     runs-on: ubuntu-latest
