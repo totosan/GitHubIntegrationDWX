@@ -1,7 +1,9 @@
 name: 2 WayMoreEvolvedWF
 on:
   workflow_dispatch:
-
+  repository_dispatch:
+    types: [on_deployer]
+    
 jobs:
   Build:
     runs-on: ubuntu-latest
