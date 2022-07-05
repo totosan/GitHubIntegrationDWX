@@ -1,7 +1,8 @@
 name: 3 Ringbased
 on:
   workflow_dispatch:
-
+  repository_dispatch:
+    types: [on_deployer_ring]
 
 jobs:
   Build:
